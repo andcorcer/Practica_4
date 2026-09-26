@@ -19,7 +19,7 @@ public class AnalizadorPalabras {
       .toLowerCase()
       .replaceAll("[^a-záéíóúüñ0-9 ]", "") // Eliminamos todos los signos de puntuación
       .trim() // Eliminamos espacios extra al inicio y al final
-      .split("\\s+"); // Separamos poor espacios (funciona también s hay múltiples en sucesión)
+      .split("\\s+"); // Separamos por espacios (funciona también si hay múltiples en sucesión)
 
     // Retornamos la longitud de las palabras
     return palabras.length;
