@@ -14,12 +14,12 @@ public class AnalizadorPalabras {
   }
 
   public int contarPalabras() {
-    // Convertimos la oración a minúsculas, nos deshacemos de todos los caracteres que sean signos e puntuación, nos deshacemos de espacios innecesarios al inicio y al final y separamos cada palabra en distintos arreglos
+    // Convertimos la oración a minúsculas, nos deshacemos de todos los caracteres que sean signos de puntuación, nos deshacemos de espacios innecesarios al inicio y al final y separamos cada palabra en distintos arreglos
     String[] palabras = oracion
       .toLowerCase()
       .replaceAll("[^a-záéíóúüñ0-9 ]", "") // Eliminamos todos los signos de puntuación
       .trim() // Eliminamos espacios extra al inicio y al final
-      .split("\\s+"); // Separamos poor espacios (funciona también s hay múltiples en sucesión)
+      .split("\\s+"); // Separamos por espacios (funciona también si hay múltiples en sucesión)
 
     // Retornamos la longitud de las palabras
     return palabras.length;
