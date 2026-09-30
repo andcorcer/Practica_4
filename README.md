@@ -13,3 +13,5 @@
 **Brigada:** 6  
 
 Link a archivo LaTeX `https://www.overleaf.com/3444219926jqtxmkqxqtkz#c1e809`
+
+Link a video `https://www.youtube.com/watch?v=EbdS-Y9lNGQ`
